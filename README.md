@@ -10,7 +10,7 @@ The codes are pytorch implement version for paper: A deeply supervised image fus
 
 The overview of DSIFN (Deeply supervised image fusion network). The network has two sub-networks: DFEN with pre-trained VGG16 as the backbone for deep feature extraction and DDN with deep feature fusion modules and deep supervision branches for change map reconstruction.
 
-![1](imgs/1.tif)
+![1](imgs/1.png)
 
 ## Requirements
 - Python3.7
