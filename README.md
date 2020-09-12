@@ -1,5 +1,5 @@
 # A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images
-Official implement of Paper：A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sening images
+Official implement of Paper：A deeply supervised image fusion network (DSIFN) for change detection in high resolution bi-temporal remote sening images
 
 ## Introduction
 The codes are pytorch and keras implements for paper: A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sening images
@@ -8,7 +8,7 @@ The codes are pytorch and keras implements for paper: A deeply supervised image 
 
 ## Structure
 
-The overview of DSIFN (Deeply supervised image fusion network). The network has two sub-networks: DFEN with pre-trained VGG16 as the backbone for deep feature extraction and DDN with deep feature fusion modules and deep supervision branches for change map reconstruction.
+The overview of Deeply supervised image fusion network (DSIFN). The network has two sub-networks: DFEN with pre-trained VGG16 as the backbone for deep feature extraction and DDN with deep feature fusion modules and deep supervision branches for change map reconstruction.
 
 ![1](imgs/1.png)
 
