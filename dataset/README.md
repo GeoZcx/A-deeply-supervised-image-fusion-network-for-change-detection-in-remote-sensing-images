@@ -1,5 +1,5 @@
 # DSIFN Dataset
- DSFIN 数据集
+ DSIFN 数据集
 
 ## Introduction
 The dataset is manually collected from Google Earth. It consists of six large bi-temporal high resolution images covering six cities (i.e., Beijing, Chengdu, Shenzhen, Chongqing, Wuhan, Xian) in China. 
