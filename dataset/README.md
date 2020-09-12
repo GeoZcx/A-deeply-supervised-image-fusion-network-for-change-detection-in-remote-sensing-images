@@ -23,7 +23,16 @@ There are 3600 image pairs in the training dataset, 340 image paris in the valid
 ![4](imgs/4.png)
 
 
-!5](imgs/5.png)
+![5](imgs/5.png)
 
 
 ![6](imgs/6.png)
+
+## Download link
+
+-Download (Baidu Cloud): https://pan.baidu.com/s/19TRsdPiRym9DoV76DukQ5g 
+-Password: hetu
+
+## Note
+please refer our paper if you use the data or code in your paper:
+> [Zhang, C., Yue, P., Tapete, D., Jiang, L., Shangguan, B., Huang, L., & Liu, G. (2020). A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sensing images. ISPRS Journal of Photogrammetry and Remote Sensing, 166, 183-200.](https://www.sciencedirect.com/science/article/abs/pii/S0924271620301532) 
