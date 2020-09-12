@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The dataset is available for scientific reasearch. If you find the dataset helps in your research, please consider citing:
+The dataset is available for scientific research. If you find the dataset helps in your research, please consider citing:
 
 > [Zhang, C., Yue, P., Tapete, D., Jiang, L., Shangguan, B., Huang, L., & Liu, G. (2020). A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sensing images. ISPRS Journal of Photogrammetry and Remote Sensing, 166, 183-200.](https://www.sciencedirect.com/science/article/abs/pii/S0924271620301532) 
 
