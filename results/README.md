@@ -17,19 +17,19 @@ To load the model weights file:
 -Password: nl1h
 
 ## Example of predicted images
-![1](imgs/1.png)
+![1](imgs/00000.jpg)
 
 
-![2](imgs/2.png)
+![2](imgs/00001.jpg)
 
 
-![3](imgs/3.png)
+![3](imgs/00002.jpg)
 
 
-![4](imgs/4.png)
+![4](imgs/41.jpg)
 
 
-![5](imgs/5.png)
+![5](imgs/19.jpg)
 
 
-![6](imgs/6.png)
+![6](imgs/4.jpg)
