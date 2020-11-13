@@ -8,8 +8,11 @@ The predicted results & model weights files are provided in the below link. Note
 To load the model weights file:
 
 -- from keras.models import load_model
+
 -- model = load_model('best_model.h5', custom_objects={'bce_dice_loss': bce_dice_loss,'f1':f1})
+
 -- results = model.predict(input_data)
+
 
 ## Download links
 
