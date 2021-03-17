@@ -61,7 +61,12 @@ class DSIFN(nn.Module):
         super().__init__()
         self.t1_base = model_A
         self.t2_base = model_B
-        self.sa = SpatialAttention()
+        self.sa1 = SpatialAttention()
+        self.sa2= SpatialAttention()
+        self.sa3 = SpatialAttention()
+        self.sa4 = SpatialAttention()
+        self.sa5 = SpatialAttention()
+        
         self.sigmoid = nn.Sigmoid()
 
         # branch1
@@ -122,7 +127,7 @@ class DSIFN(nn.Module):
         # x = self.ca1(x) * x
         x = self.o1_conv1(x)
         x = self.o1_conv2(x)
-        x = self.sa(x) * x
+        x = self.sa1(x) * x
         x = self.bn_sa1(x)
 
         branch_1_out = self.sigmoid(self.o1_conv3(x))
@@ -135,7 +140,7 @@ class DSIFN(nn.Module):
         x = self.o2_conv1(x)
         x = self.o2_conv2(x)
         x = self.o2_conv3(x)
-        x = self.sa(x) *x
+        x = self.sa2(x) *x
         x = self.bn_sa2(x)
 
         branch_2_out = self.sigmoid(self.o2_conv4(x))
@@ -146,7 +151,7 @@ class DSIFN(nn.Module):
         x = self.o3_conv1(x)
         x = self.o3_conv2(x)
         x = self.o3_conv3(x)
-        x = self.sa(x) *x
+        x = self.sa3(x) *x
         x = self.bn_sa3(x)
 
         branch_3_out = self.sigmoid(self.o3_conv4(x))
@@ -157,7 +162,7 @@ class DSIFN(nn.Module):
         x = self.o4_conv1(x)
         x = self.o4_conv2(x)
         x = self.o4_conv3(x)
-        x = self.sa(x) *x
+        x = self.sa4(x) *x
         x = self.bn_sa4(x)
 
         branch_4_out = self.sigmoid(self.o4_conv4(x))
@@ -168,7 +173,7 @@ class DSIFN(nn.Module):
         x = self.o5_conv1(x)
         x = self.o5_conv2(x)
         x = self.o5_conv3(x)
-        x = self.sa(x) *x
+        x = self.sa5(x) *x
         x = self.bn_sa5(x)
 
         branch_5_out = self.sigmoid(self.o5_conv4(x))
