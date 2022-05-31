@@ -17,6 +17,10 @@ The below link provides the trainig, validation, and test datasets, as well as t
 
 -Password提取码: ru08
 
+Or:
+
+-Google drive link: https://drive.google.com/drive/folders/1yutLU4WI7eeeGbuxilsq2OtGQr9EHDLy?usp=sharing 
+
 ## Raw images
 ![1](imgs/1.png)
 
