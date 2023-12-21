@@ -2,7 +2,7 @@ import torch.nn as nn
 
 def cd_loss(input,target):
     bce_loss = nn.BCELoss()
-    bce_loss = bce_loss(torch.sigmoid(input),torch.sigmoid(target))
+    bce_loss = bce_loss(torch.sigmoid(input),target)
 
     smooth = 1.
     iflat = input.view(-1)
